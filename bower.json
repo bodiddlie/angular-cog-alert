@@ -1,0 +1,32 @@
+{
+  "name": "angular-cog-alert",
+  "version": "0.1.0",
+  "authors": [
+    "bodiddlie <bodiddlie@gmail.com>"
+  ],
+  "description": "Simple alert message directive/factory for angularjs.",
+  "main": "dist/angular-cog-alert.js",
+  "keywords": [
+    "angular-cog-alert",
+    "alert",
+    "message",
+    "bootstrap",
+    "angular",
+    "angularjs"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "~1.3.15"
+  },
+  "devDependencies": {
+    "angular-mocks": "~1.3.15",
+    "angular-animate": "~1.3.15"
+  }
+}
