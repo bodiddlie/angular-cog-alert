@@ -57,6 +57,15 @@ myApp.controller('serviceController', function ($scope, someService, Alerting) {
 });
 ```
 
+Styling &amp; Animations
+----------
+
+The alerts all have the bootstrap `alert-*` classes applied to them. You can use custom class names by using the `addAlert()` method on the Alerting factory, which will result in `alert-[type]`
+classes being applied.
+
+For animations, you can use whatever method you please. The demo uses ngAnimate and [animate.css](http://daneden.github.io/animate.css/) to apply the flipInY/flipOutY animations when alerts are
+shown/hidden. The demo applies the animation to `.alert.ng-enter` and `.alert.ng-leave`.
+
 API
 ---------
 + **Alerting Factory**
@@ -78,3 +87,6 @@ API
   + `errorHandler(message)`
     Returns a function that can be consumed by the catch method of a **$q** promise. Will add the given message as a danger alert.
 
+#### [Guidelines for contributors](https://github.com/bodiddlie/angular-cog-alert/blob/master/contributing.md)
+
+#### MIT &copy; [bodiddlie](https://twitter.com/bodiddlie)
