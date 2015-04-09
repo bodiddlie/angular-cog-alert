@@ -60,6 +60,8 @@ gulp.task('build-js', function () {
     .pipe(gulp.dest(config.build));
 });
 
+gulp.task('default', ['test']);
+
 gulp.task('build-css', function () {
     log('Build CSS files');
 
