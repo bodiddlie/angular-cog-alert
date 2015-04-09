@@ -10,7 +10,7 @@ Getting Started
 -----------
 
 ###Installation
-Downlaod the files from above or install via **Bower**.
+Downlaod the source as a [zip file](https://github.com/bodiddlie/angular-cog-alert/archive/master.zip) above or install via **Bower**.
 ```
 bower install --save angular-cog-alert
 ```
