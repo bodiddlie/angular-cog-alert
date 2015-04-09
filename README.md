@@ -1,4 +1,4 @@
-![travis](https://travis-ci.org/bodiddlie/angular-cog-alert.svg?branch=masteREADME)
+![travis](https://travis-ci.org/bodiddlie/angular-cog-alert.svg?branch=master)
 #Angular-CoG-Alert
 A simple alerting directive/factory for AngularJS.
 
