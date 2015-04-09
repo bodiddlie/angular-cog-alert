@@ -1,11 +1,11 @@
 {
   "name": "angular-cog-alert",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "authors": [
     "bodiddlie <bodiddlie@gmail.com>"
   ],
   "description": "Simple alert message directive/factory for angularjs.",
-  "main": "dist/angular-cog-alert.js",
+  "main": ["dist/angular-cog-alert.js","dist/angular-cog-alert.css"],
   "keywords": [
     "angular-cog-alert",
     "alert",
