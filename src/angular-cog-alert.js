@@ -1,5 +1,5 @@
 (function () {
-    angular.module('cogAlert', ['ngAnimate'])
+    angular.module('cogAlert', [])
     .directive('cogAlerts', alertDirective)
     .factory('Alerting', Alerting);
 
