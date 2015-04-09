@@ -31,7 +31,6 @@
             element = compile(element)(scope);
             scope.$digest();
             var elm = angular.element(element[0].querySelector('div.alert'));
-            console.log(elm);
             expect(elm.length).toEqual(0);
         });
     });

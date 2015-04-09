@@ -6,7 +6,9 @@
     function alertDirective(Alerting) {
         var ddo = {
             restrict: 'E',
-            template: '<div class="alert-box" ng-show="currentAlerts.length > 0"><div ng-repeat="alert in currentAlerts | filter: {show:true}" class="alert alert-{{alert.type}}">{{alert.message}}</div</div>',
+            template: '<div class="alert-box" ng-show="currentAlerts.length > 0">' +
+                '<div ng-repeat="alert in currentAlerts | filter: {show:true}" class="alert alert-{{alert.type}}">' +
+                '<button type="button" class="close" ng-click="alert.show = false" aria-label="Dismiss"><span arai-hidden="true">&times;</span></button>{{alert.message}}</div</div>',
             scope: true,
             link: function (scope) {
                 scope.currentAlerts = Alerting.currentAlerts;
