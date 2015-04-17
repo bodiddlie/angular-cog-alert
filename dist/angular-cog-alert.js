@@ -3,6 +3,7 @@
     .directive('cogAlerts', alertDirective)
     .factory('Alerting', Alerting);
 
+    alertDirective.$inject = ['Alerting'];
     function alertDirective(Alerting) {
         var ddo = {
             restrict: 'E',
@@ -18,6 +19,7 @@
         return ddo;
     }
 
+    Alerting.$inject = ['$timeout'];
     function Alerting($timeout) {
         var currentAlerts = [];
 
