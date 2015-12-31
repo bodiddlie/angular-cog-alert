@@ -1,3 +1,7 @@
+if (typeof module !== "undefined" && typeof exports !== "undefined" && module.exports === exports) {
+    module.exports = 'cogAlert';
+}
+
 (function () {
     angular.module('cogAlert', [])
     .directive('cogAlerts', alertDirective)
